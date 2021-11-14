@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  position: fixed;
+  width: 200px;
+  height: 100px;
+  z-index: 99;
+  margin-top: 50px;
+  left: 206px;
+}
+nav h1 {
+  font-family: le-monde-livre-classic-byol, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  padding-bottom: 20px;
+  letter-spacing: -2px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  line-height: 250%;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.gallery-wrapper {
+  width: 830px;
+  height: 100%;
+  margin-left: 500px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-wrapper .column {
+  width: 400px;
+  height: 100px;
+  background-color: red;
+}
+.gallery-wrapper .column .photo {
+  width: 400px;
+  margin-bottom: 30px;
+}
+#l-photo1 {
+  height: 450px;
+  background-image: url(../imgs/Screen-Shot-2018-08-14-at-4.14.48-PM.png);
+  background-size: cover;
+  background-position: center;
+}
+#l-photo2 {
+  height: 200px;
+  background-image: url(../imgs/1Mitski.jpg);
+  background-size: cover;
+}
+#l-photo3 {
+  height: 400px;
+  background-image: url(../imgs/6i59bjmuzf871.jpg);
+  background-size: cover;
+}
+#r-photo1 {
+  height: 300px;
+  background-image: url(../imgs/mitskicopcara020.jpg);
+  background-size: cover;
+}
+#r-photo2 {
+  height: 200px;
+  background-image: url(../imgs/long\ mitski.jpg);
+  background-size: cover;
+}
+#r-photo3 {
+  height: 400px;
+  background-image: url(../imgs/original.jpg);
+  background-size: cover;
+  background-position: center;
+}
